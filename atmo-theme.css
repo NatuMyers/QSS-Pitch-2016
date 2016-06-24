@@ -1,0 +1,424 @@
+/*----- Atmo Theme Designed by Kamilah Carter for Breeze Networks -----*/
+
+/*----- General Styles -----*/
+
+body {
+	letter-spacing: .3px;
+}
+
+
+/*----- Atmo Styles -----*/
+
+/* Text Styles */
+h1 {
+	font-weight: 400;
+	font-size: 22pt;
+	line-height: 26pt;
+}
+
+h2 {
+	font-size: 18pt;
+	line-height: 22pt;
+	margin: 0;
+	width: 50%;
+}
+
+.k-view-all {
+	width:46px;
+	padding-top: 10px;
+	display: inline-block;
+	position: relative;
+	float:right;
+}
+
+.k-app-tag {
+	color: #2B3F59;
+	font-size: 10pt;
+	line-height: 12pt;
+	text-weight: 700;
+}
+
+.k-app-num {
+	color: #2B3F59;
+	font-size: 22pt;
+	line-height: 26pt;
+	text-weight: 900;
+	padding-top: 5px;
+}
+
+/*-- Header --*/
+
+.k-title {
+	white-space: nowrap;
+	margin: 36px 20px 7px;
+	height:100%;
+	display: inline-block;
+	position:relative;
+	float:left;
+}
+
+.k-menu {
+	float:right;
+	margin: 45px 0 1px;
+}
+
+.k-menu .k-btn-menu {
+	padding: 8px 10px;
+	background-color: #e9ebef;
+	color: #788798;
+	border: 1px solid #fff;
+	border-top: none;
+	border-bottom: none #2B3F59;
+}
+
+.k-menu .k-btn-menu:hover {
+	background-color: #788798;
+	color: #fff;
+}
+
+/*-- Sectison Titles --*/
+.k-section-title {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+/*-- Alerts --*/
+
+.alert.k-alert{
+	background-color:#e9ebef;
+	border: 0px;
+	color: #2b3f59;
+	padding: 0px;
+	padding-right: 15px;
+	margin-bottom: 10px;
+	min-height: 68px;
+	display: flex;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+	right: 0;
+	top: 0;
+	display: inline-block;
+	float: right;
+	text-shadow: none;
+}
+
+.k-alert-label, .k-alert-body, .k-button-panel {
+	padding: 10px;
+	height: inherit;
+	display: inline-block;
+	position: relative;
+}
+
+.k-button-panel .btn-default, .k-button-panel .btn-danger {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-size: 8px;
+	line-height: 8px;
+	width: 100%;
+}
+
+.k-button-panel .btn-default {
+	margin-bottom: 8px;
+}
+
+.k-alert-label {
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	width: 20%;
+	min-width: 68px;
+	float: left;
+}
+
+.k-opportunity-label {
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 34px;
+	padding: 17px 10px;
+}
+
+.alert-danger .k-alert-label { background-color: #ff3342}
+.alert-warning .k-alert-label { background-color: #ff8b00}
+.alert-info .k-alert-label { background-color: #ffcc00}
+.alert-success .k-alert-label { background-color: #00dbd1}
+
+.k-alert-body {
+	width: calc(80% - 115px);
+	float: left;
+}
+
+.k-button-panel {
+	width: 115px;
+	float: right;
+}
+	
+/*-- Footer --*/
+.web-address {
+	color: #fff;
+	font-size: 8pt;
+	line-height: 10pt;
+	font-weight: 700;
+	text-align: right;
+}
+
+.web-footer {
+	height: 30px;
+	width: 179px;
+	padding:10px;
+	float:right;
+	background-image: url(images/web-footer.png);
+	background-size: 100%;
+}
+
+/*-- Responsive Design --*/
+
+@media (max-width: 992px){
+	h1 {font-size: 18pt; line-height:22pt}
+	.k-title {margin: 15px 0 0;}
+	h2 {font-size: 16pt; line-height:20pt}
+}	
+
+@media (max-width: 480px){
+	.k-opportunity-label {
+		font-weight: 900;
+		font-size: 22px;
+		line-height: 26px;
+		padding: 22px 10px;
+	}
+}
+
+
+/*------ Modifications to Bootstrap Themes ------*/
+
+/*-- Text Styles --*/
+
+p {
+	margin-bottom: 0;
+}
+
+/*-- Navbar --*/
+
+.navbar {
+	border: none;
+	margin-bottom: 30px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	padding:0;
+	margin-left:0;
+	display:inline-block;
+	height: 78px;
+}
+
+.navbar-brand img {
+	height:78px;
+}
+
+/*-- Grid --*/
+
+.col-md-6, .col-xs-6 .col-md-4, .col-xs-6 .col-md-4 {
+	margin-bottom: 30px;
+}
+
+/*-- Buttons --*/
+
+.btn-default:hover {
+	color: #fff;
+	background-color: #788798;
+}
+
+.btn-danger {
+	background-color: #fff;
+	color: #ff3342;
+}
+
+.btn-danger:hover {
+	color: #fff;
+	background-color: #ff3342;
+}
+
+.btn-sm {
+	padding: 6px 8px;
+	border: none;
+	width: 100%
+}
+
+.btn:active, .btn.active {
+	box-shadow: none;
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default.focus:active, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+	color: #fff;
+	background-color: #A3B6C9;
+}
+
+.btn-danger:active:hover, .btn-danger.active:hover, .open > .dropdown-toggle.btn-danger:hover, .btn-danger:active:focus, .btn-danger.active:focus, .open > .dropdown-toggle.btn-danger:focus, .btn-danger.focus:active, .btn-danger.active.focus, .open > .dropdown-toggle.btn-danger.focus {
+	background-color: #ff6671;
+}
+
+.modal-dialog .btn-danger.btn-sm, .modal-dialog .btn-default.btn-sm {
+	background-color: #E9EBEF;
+}
+
+.modal-dialog .btn-danger.btn-sm:hover {
+	background-color: #FF3342;
+}
+
+.modal-dialog .btn-default.btn-sm:hover {
+	background-color: #788798;
+}
+
+.k-button-panel .modal-dialog .btn-default {
+	margin-bottom: 0;
+}
+
+.k-button-panel .modal-dialog .btn-default, .k-button-panel .modal-dialog .btn-danger {
+	width:18%;
+}
+
+
+/*-- Tables --*/
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border: none;
+}
+
+th {
+	background-color:#A3B6C9;
+	color: #fff;
+	font-weight: 900;
+}
+
+th:hover {
+	background-color: #788798;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3f4f7;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) .danger{
+	background-color: #FF3342;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) .danger {
+	background-color: #FF6671;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) .warning {
+	background-color: #ffa83f;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) .warning {
+	background-color: #FF8B00;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) .info {
+	background-color: #ffcc00;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) .info {
+	background-color: #ffd83f;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) .success {
+	background-color: #00DBD1;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) .success {
+	background-color: #3fe3dc;
+}
+
+.danger, .warning, .info, .success {
+	font-weight: 700;
+	color: #fff;
+}
+
+/* Table Switching */
+
+.nav-tabs, .nav-tabs > li > a:hover, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a {
+	border: none;
+}
+
+.nav {
+	margin-bottom: 18px;
+}
+
+.nav-tabs > li {
+	width: calc(25% - 7.5px);
+	margin-right: 10px;
+}
+
+.nav .lastTab {
+	margin-right: 0;
+}
+
+.nav-tabs > li a {
+	background-color: #E9EBEF;
+	text-align: center;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 5px;
+	margin-right: 0;
+}
+
+.nav-tabs > li {
+	margin-bottom: 0;
+}
+
+#myTabs li.active a, #myTabs li:hover a{
+	border-radius: 5px;
+}
+
+#myTabs li.active #total-tab, #myTabs li:hover #total-tab{
+	background-color: #788798;
+}
+
+#myTabs li.active #critical-tab, #myTabs li:hover #critical-tab{
+	background-color: #FF3342;
+}
+
+#myTabs li.active #approved-tab, #myTabs li:hover #approved-tab{
+	background-color: #00DBD1;
+}
+
+#myTabs li.active #unapproved-tab, #myTabs li:hover #unapproved-tab{
+	background-color: #FFCC00;
+}
+
+#myTabs li:hover .k-app-tag, #myTabs li.active .k-app-tag, #myTabs li:hover .k-app-num, #myTabs li.active .k-app-num {
+	color: #fff;
+}
+
+
+/*----- Sticky Footer from http://getbootstrap.com/examples/sticky-footer-navbar/ -----*/
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin-bottom: 0;
+}
+.footer {
+    bottom: 0;
+    height: 30px;
+    position: absolute;
+    width: 100%;
+	margin-top:30px;
+}
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 0;
+}
+.footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+code {
+    font-size: 80%;
+}
